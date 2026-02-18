@@ -6,3 +6,8 @@ url: "https://alpinelink.github.io"
 baseurl: "/whmcs-bexio-docs"
 
 color_scheme: dark
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: just-the-docs/just-the-docs
