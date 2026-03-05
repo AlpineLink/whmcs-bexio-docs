@@ -1,11 +1,25 @@
 {"0": {
     "doc": "Home",
-    "title": "WHMCS ↔ Bexio Dokumentation",
-    "content": "Hello world! . ",
-    "url": "/#whmcs--bexio-dokumentation",
+    "title": "WHMCS ↔ Bexio Integration Documentation",
+    "content": "Welcome to the documentation for the WHMCS ↔ Bexio Integration. This documentation provides comprehensive guidance on integrating WHMCS with Bexio to streamline your business processes and enhance efficiency. ",
+    "url": "/#whmcs--bexio-integration-documentation",
     
-    "relUrl": "/#whmcs--bexio-dokumentation"
+    "relUrl": "/#whmcs--bexio-integration-documentation"
   },"1": {
+    "doc": "Home",
+    "title": "Overview",
+    "content": "The WHMCS ↔ Bexio Integration enables seamless synchronization between your WHMCS system and Bexio, including customers, invoices, products, and more. ",
+    "url": "/#overview",
+    
+    "relUrl": "/#overview"
+  },"2": {
+    "doc": "Home",
+    "title": "Getting Started",
+    "content": ". | Installation and Setup | Configuration | Troubleshooting | . For more information, navigate through the menus on the left. ",
+    "url": "/#getting-started",
+    
+    "relUrl": "/#getting-started"
+  },"3": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
