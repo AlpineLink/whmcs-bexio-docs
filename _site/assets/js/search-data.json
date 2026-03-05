@@ -1,2 +1,16 @@
-{
+{"0": {
+    "doc": "Home",
+    "title": "WHMCS ↔ Bexio Dokumentation",
+    "content": "Hello world! . ",
+    "url": "/#whmcs--bexio-dokumentation",
+    
+    "relUrl": "/#whmcs--bexio-dokumentation"
+  },"1": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  }
 }

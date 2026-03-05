@@ -2,7 +2,7 @@ title: Documentation WHMCS / Bexio Integration
 description: by AlpineLink
 
 url: "https://docs.bexio-whmcs.ch"
-baseurl: "/index.md"
+baseurl: "/"
 
 color_scheme: dark
 
