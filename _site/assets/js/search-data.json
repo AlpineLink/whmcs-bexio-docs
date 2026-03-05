@@ -1,30 +1,135 @@
 {"0": {
+    "doc": "Configuration",
+    "title": "Configuration",
+    "content": "This page covers the configuration options for the WHMCS ↔ Bexio Integration. ",
+    "url": "/docs/configuration.html",
+    
+    "relUrl": "/docs/configuration.html"
+  },"1": {
+    "doc": "Configuration",
+    "title": "API Credentials",
+    "content": "Bexio API Setup . | Log in to your Bexio account and open developer.bexio.com | Go to Personal Access Tokens | Generate a new API key | Copy the API key to the module settings | . Note: The Personal Access Token expires after 180 days. Make sure to set a reminder to renew it. WHMCS Settings . In the module configuration: . | Bexio API Key: Enter the key from Bexio | myAlpineLink License key: Your personal License key | . For troubleshooting common issues, see the Troubleshooting page. ",
+    "url": "/docs/configuration.html#api-credentials",
+    
+    "relUrl": "/docs/configuration.html#api-credentials"
+  },"2": {
+    "doc": "Configuration",
+    "title": "Module Configuration",
+    "content": "Product Relations . Add your Product Relations to the Module. | Select whether you want to set a Relation for Domains or a Product within WHMCS | . Product . | Select the WHMCS Relation Product | Select the Product in Bexio. | Select the Account in Bexio. | . Domain . | Select one Domain or all Domains you want to set to this Product and Account in Bexio. | . Note . You can also set a relation to all Domains in WHMCS. | Select the Product in Bexio. | Select the Account in Bexio. | . ",
+    "url": "/docs/configuration.html#module-configuration",
+    
+    "relUrl": "/docs/configuration.html#module-configuration"
+  },"3": {
     "doc": "Home",
     "title": "WHMCS ↔ Bexio Integration Documentation",
     "content": "Welcome to the documentation for the WHMCS ↔ Bexio Integration. This documentation provides comprehensive guidance on integrating WHMCS with Bexio to streamline your business processes and enhance efficiency. ",
     "url": "/#whmcs--bexio-integration-documentation",
     
     "relUrl": "/#whmcs--bexio-integration-documentation"
-  },"1": {
+  },"4": {
     "doc": "Home",
     "title": "Overview",
     "content": "The WHMCS ↔ Bexio Integration enables seamless synchronization between your WHMCS system and Bexio, including customers, invoices, products, and more. ",
     "url": "/#overview",
     
     "relUrl": "/#overview"
-  },"2": {
+  },"5": {
     "doc": "Home",
     "title": "Getting Started",
     "content": ". | Installation and Setup | Configuration | Troubleshooting | . For more information, navigate through the menus on the left. ",
     "url": "/#getting-started",
     
     "relUrl": "/#getting-started"
-  },"3": {
+  },"6": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
+  },"7": {
+    "doc": "Installation and Setup",
+    "title": "Installation and Setup",
+    "content": "This guide will walk you through the installation and initial setup of the WHMCS ↔ Bexio Integration. ",
+    "url": "/docs/installation.html",
+    
+    "relUrl": "/docs/installation.html"
+  },"8": {
+    "doc": "Installation and Setup",
+    "title": "Prerequisites",
+    "content": "Before installing the integration, ensure you have: . | WHMCS installed and configured | A Bexio account with API access | PHP 7.4 or higher | cURL extension enabled | A backup of your WHMCS files and database | . ",
+    "url": "/docs/installation.html#prerequisites",
+    
+    "relUrl": "/docs/installation.html#prerequisites"
+  },"9": {
+    "doc": "Installation and Setup",
+    "title": "Downloading the Module",
+    "content": ". | Download the latest version of the WHMCS ↔ Bexio Integration module from myAlpineLink. | Extract the files to your WHMCS modules directory. | . ",
+    "url": "/docs/installation.html#downloading-the-module",
+    
+    "relUrl": "/docs/installation.html#downloading-the-module"
+  },"10": {
+    "doc": "Installation and Setup",
+    "title": "Installation Steps",
+    "content": ". | Upload the module files to your-whmcs-path/modules/addons/bexio/ and your-whmcs-path/includes/hooks/ | Go to WHMCS Admin &gt; Setup &gt; Addon Modules | Activate the “WHMCS Bexio Integration” module | Configure the API credentials (see Configuration section) | Add your License key | . ",
+    "url": "/docs/installation.html#installation-steps",
+    
+    "relUrl": "/docs/installation.html#installation-steps"
+  },"11": {
+    "doc": "Installation and Setup",
+    "title": "Initial Configuration",
+    "content": "After installation, you need to: . | Enter your Bexio API key | Set up synchronization settings | Test the connection | . For detailed configuration options, see the Configuration page. ",
+    "url": "/docs/installation.html#initial-configuration",
+    
+    "relUrl": "/docs/installation.html#initial-configuration"
+  },"12": {
+    "doc": "Troubleshooting",
+    "title": "Troubleshooting",
+    "content": "Common issues and solutions for the WHMCS ↔ Bexio Integration. ",
+    "url": "/docs/troubleshooting.html",
+    
+    "relUrl": "/docs/troubleshooting.html"
+  },"13": {
+    "doc": "Troubleshooting",
+    "title": "Connection Issues",
+    "content": "API Key Invalid . Error: “Invalid API key” . Solution: . | Verify the API key in Bexio settings | Ensure the key has the correct permissions | Regenerate the key if necessary | . Network Errors . Error: “Connection timeout” or “cURL error” . Solution: . | Check firewall settings | Ensure outbound connections to Bexio are allowed | Verify DNS resolution | . ",
+    "url": "/docs/troubleshooting.html#connection-issues",
+    
+    "relUrl": "/docs/troubleshooting.html#connection-issues"
+  },"14": {
+    "doc": "Troubleshooting",
+    "title": "Synchronization Problems",
+    "content": "Data Not Syncing . Symptoms: Changes not appearing in the other system . Solution: . | Check sync logs for errors | Verify data mapping configuration | Ensure both systems are online | . Duplicate Records . Issue: Duplicate customers or invoices . Solution: . | Review deduplication settings | Manually merge duplicates | Adjust sync filters | . ",
+    "url": "/docs/troubleshooting.html#synchronization-problems",
+    
+    "relUrl": "/docs/troubleshooting.html#synchronization-problems"
+  },"15": {
+    "doc": "Troubleshooting",
+    "title": "Common Errors",
+    "content": "“Permission denied” . | Verify WHMCS admin permissions | Check Bexio user roles | . ",
+    "url": "/docs/troubleshooting.html#common-errors",
+    
+    "relUrl": "/docs/troubleshooting.html#common-errors"
+  },"16": {
+    "doc": "Troubleshooting",
+    "title": "Logs and Debugging",
+    "content": "Enable debug logging in the module settings to get more detailed error information. ",
+    "url": "/docs/troubleshooting.html#logs-and-debugging",
+    
+    "relUrl": "/docs/troubleshooting.html#logs-and-debugging"
+  },"17": {
+    "doc": "Troubleshooting",
+    "title": "Product Relation",
+    "content": "No Product Relation has been configured. Please go to the Bexio Integration Settings page and add your Product Relation. ",
+    "url": "/docs/troubleshooting.html#product-relation",
+    
+    "relUrl": "/docs/troubleshooting.html#product-relation"
+  },"18": {
+    "doc": "Troubleshooting",
+    "title": "Support",
+    "content": "If issues persist, contact support with: . | Error messages | Log files | Configuration screenshots | . ",
+    "url": "/docs/troubleshooting.html#support",
+    
+    "relUrl": "/docs/troubleshooting.html#support"
   }
 }
